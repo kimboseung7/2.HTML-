@@ -64,6 +64,15 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
 }
+@media screen and (max-width: 480px) {
+    body{
+        width: 90vw;  /* 화면 너비의 90% */
+        height: 50vh;  /* 화면 높이의 90% */
+    }
+    .sprint-logo {
+       width: 1000%;  /* 화면 너비의 50% */
+    }
+}
 /* -------------------------------------------------------------social-------------------------------------------------- */
 .social-menu ul{
  position: absolute;
